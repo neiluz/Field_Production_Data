@@ -23,7 +23,7 @@ st.image("linkedin_banner.png", use_column_width=True)
 st.subheader("Production Wells Analysis")
 
 #load data
-df_production = pd.read_excel('Volve production data.xlsx')
+df_production = pd.read_excel('Volve production data.xlsx', sheet_name='Sheet1')
 
 # Procesamiento de datos
 
