@@ -5,6 +5,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from PIL import Image
 
+import pip
+pip.main(["install", "openpyxl"])
+
 # Imagen Banner
 
 # Abrir la imagen original
